@@ -1,0 +1,124 @@
+body {
+    background-image: url("./assets/images/bg-desktop-light.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 22vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main{
+    margin-top: 10px;
+    background-color: #f0f0f0;
+  }
+  .container {
+    width: 50%;
+    color: white;
+    margin: 20px auto;
+    text-align: left;
+    background: none;
+      
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .input-container {
+    display: flex;
+    line-height: 1;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: darkblue;
+  }
+  
+  .task-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-btn, .save-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc; /* Adds a light gray horizontal line */
+    margin-bottom: 10px;
+
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 3px 8px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+
+  .footer-options {
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;  /* Ensures equal spacing */
+    align-items: center;
+    width: 100%;
+    max-width: 500px; /* Adjust width as needed */
+    margin: 20px auto;
+    padding: 10px;
+    background:white; /* Light transparent background */
+    border-radius: 5px;
+    color: rgb(108, 100, 100);
+    font-size: 14px;
+  }
+  .footer-options .clear {
+    cursor: pointer;
+    color: rgb(47, 41, 41);
+    font-weight: bold;
+    margin: 7 px;
+  }
+  .footer-options .color{
+    cursor: pointer;
+
+    color: blue;
+
+  }
+
+  
+  
+  .footer-options .clear:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: gray;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  
